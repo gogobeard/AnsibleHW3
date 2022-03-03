@@ -1,7 +1,7 @@
 ---
-# handlers file for role-apache
+# handlers file for role-ftp
 #
-- name: Restart service
-  service:
-          name: httpd
-          state: restarted
+    - name: restart vsftpd
+      service:
+              name: vsftpd
+              state: restarted
