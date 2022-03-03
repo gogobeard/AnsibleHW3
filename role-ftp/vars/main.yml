@@ -1,0 +1,17 @@
+---
+# vars file for role-ftp
+#
+var_vsftpd_anonymous_enable: "YES"
+var_vsftpd_local_enable: "YES"
+var_vsftpd_write_enable: "YES"
+var_vsftpd_local_umask: "022"
+var_vsftpd_local_root: "/var/ftp/pub"
+var_vsftpd_anon_upload_enable: "YES"
+var_vsftpd_dirmessage_enable: "YES"
+var_vsftpd_xferlog_enable: "YES"
+var_vsftpd_connect_from_port_20: "YES"
+var_vsftpd_xferlog_std_format: "YES"
+var_vsftpd_ftpd_banner: "Welcome to my test FTP service."
+var_vsftpd_listen: "YES"
+var_vsftpd_pam_service_name: "vsftpd"
+var_vsftpd_userlist_enable: "YES"
